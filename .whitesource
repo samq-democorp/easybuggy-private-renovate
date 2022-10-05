@@ -4,5 +4,15 @@
         "enableRenovate": true,
         "dependencyDashboard": true,
         "extends": ["github>whitesource/merge-confidence:beta"]
-      }
+      },
+  "hostRules": [
+    {
+    "matchHost": "http://54.193.153.64:8081/artifactory/demo-libs-snapshot-local",
+    "hostType": "maven",
+    "username": "mavenman",
+    "encrypted": {
+        "token": "wcBMA8xOaBJvzJNbAQf9FPizr0hr2sfag+8kToPF7YrlW77caYCwVcqAs66JTy6OhKYeNrNe69DMjtVUnGm3uxrtuT0B/2/ArfYpZNF8faiGkXa7lXqAOz3zU2ofwd/nf0Mhj3C0w3qZrnTK5SjEVma74RihJ1tMpvTt6bH2vqR9y2hSfg/HMzjJYkH6c1Fn3178iIKXs4t3C9NDJyI5JUKQKK5nuvUXpbkCM8sPlX027VFVAn91+wirajSnk2rABAHsRTKV4I3YCWSS+u0/fovrAFCqzeVOBjO2PGyU97AXaThqF+onxXXnngrmJcNr3O43VBU+ouHIzNZz0jCwxBt/OL+bD8kBtPMTZbVY/9JvAUO8N4eNrwTRZ95w+8WXXweGbAqaa2yUb0ET5PXFDLx5puOsFVnoPiDM0e08sHvx3TevsJZvrSU5vNQSTnIfFIZkq44X/f04Xy6mBM6PNgD02OZAto4oFCFbJaNWGYUmpLCkuWkKxycfvs5N9jQw"
+        }
+    }
+  ]
 }
